@@ -38,7 +38,7 @@
               
                
            }
-           alert(window.localStorage.getItem("user"))
+        //   alert(window.localStorage.getItem("user"))
           
 
            $.ajax({

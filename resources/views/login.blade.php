@@ -24,15 +24,16 @@
 <div id="heading">
 
                 <h1>登入</h1></div>
-                <div name="test" style="text-align: center"> 
-                    帳號: <input id="account" type="text" style="margin:3pt auto;width:auto"/>
-                    密碼: <input id="password" type="password" style="margin:3pt auto;width:auto">
+                
+                <div name="test" style="text-align: center" class= "form-group"> 
+                    帳號: <input id="account" type="text" class="form-control" style="margin:3pt auto;width:auto" placeholder="請輸入帳號"/>
+                    密碼: <input id="password" type="password" class="form-control " style="margin:3pt auto;width:auto" placeholder="請輸入密碼">
 
                     
                 
                
     
-    <button id="login" class="btn btn-primary text-light" onclick="login()">登入</button>
+    <button id="login" type="submit" class="btn btn-primary text-light" onclick="login()">登入</button>
     <button  class="btn btn-secondary text-light" onclick="reg()">註冊</button>
 </div>
 

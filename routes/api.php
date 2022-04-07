@@ -1,5 +1,5 @@
 <?php
-
+use App\Services\UserService;
 use Illuminate\Http\Request;
 
 /*
