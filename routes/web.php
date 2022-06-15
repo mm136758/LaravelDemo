@@ -33,6 +33,9 @@ Route::get('/404', function () {
 Route::get('/reg', function () {
     return view('reg');
 });
+Route::get('/test', function () {
+    return view('test');
+});
 Route::group(['prefix'=>'mysql'],function(){
     Route::get('/', function () {
         return view('connmysql')  ;

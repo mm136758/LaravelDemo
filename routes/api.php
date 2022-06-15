@@ -31,7 +31,17 @@ Route::post('delete_comment', 'CommentController@delete_comment');
 
 
     });
-    
+
+Route::get('tasks','TaskController@index');
+Route::post('task','TaskController@store');
+Route::get('task/{id}/complete','TaskController@complete');
+Route::get('task/{id}/delete','TaskController@destroy');
+
+
+
+
+
+
 
 
 
